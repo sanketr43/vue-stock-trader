@@ -1,15 +1,18 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
+import stocks from "./modules/stocks";
+import portfolio from "./modules/portfolio";
+import * as actions from "./actions";
+Vue.use(Vuex);
 
-Vue.use(Vuex)
+Vue.filter("currency", value => {
+  return "$" + value.toLocaleString();
+});
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+  actions,
   modules: {
+    stocks,
+    portfolio
   }
-})
+});
