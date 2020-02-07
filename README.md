@@ -1,4 +1,4 @@
-# vueapp
+# vue-stock-trader (Vue.Js + Vuex + Vue-Router + Vue-Resource + Firebase)
 
 ## Project setup
 ```
