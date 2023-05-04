@@ -1,6 +1,6 @@
 # vue-stock-trader (Vue.Js + Vuex + Vue-Router + Vue-Resource + Firebase)
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
